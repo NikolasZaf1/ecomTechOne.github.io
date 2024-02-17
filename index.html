@@ -3,64 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Black Goose Bistro</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #f1f1f1;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            padding: 10px;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #f1f1f1;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+    <title>ProgTech Wonderland</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Black Goose Bistro</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Catering</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">ProgTech Wonderland</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactUs.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    <main>
-        <h2>The Restaurant</h2>
-        <p>The Black Goose Bistro offers casual lunch and dinner fare in a hip atmosphere. The menu changes regularly to highlight the freshest ingredients.</p>
-        <h2>Catering</h2>
-        <p>We offer catering services for private events, corporate functions, and weddings. Our experienced staff will work with you to create a menu that meets your specific needs and budget.</p>
-    </main>
-    <footer>
-        <p>&copy; 2022 Black Goose Bistro. All rights reserved.</p>
-    </footer>
+
+    <div class="background">
+        <div class="overlay-text">
+            Explore the Future,<br> Unveil the Magic!
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
